@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 80px;
+    justify-content: center;
+
+
+}
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 0 20px;
+}
+.menu li:last-child {
+    padding-right: 200px;
+}
+
+.menu img {
+    height: 40px;
+}
+
+#menu-item-17 {
+    margin-left: auto;
+}
+
+

@@ -1,0 +1,44 @@
+.grid-shop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px ;
+    background-color: rgba(0, 0, 75, 0.158);
+}
+
+.grid-shop h1 {
+    font-size: 30px;
+}
+
+.grid-shop a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.grid-shop a:first-child{
+    border-right: 1px solid rgb(255, 255, 255);
+    
+}
+
+
+
+.revetements {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.bois {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
